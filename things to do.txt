@@ -1,0 +1,16 @@
+new things we need to add:
+first is see why axis bank is not sending me sms when i do transaction using pop
+second is make it dynamic, ie rather tyan predefining that use this sender, we can make it dynamic
+and when we add a new sender, we can ask to give me a demo sms for us to understand how to parse information
+and save into our app
+
+
+thid and main thing is this, add a button which when clicked will open the apps whicha are used for upi tranactions 
+we can maually enter which app to see, and when that button is clicked, it will open that app
+and see all the tranactions we did on that day and save into our app
+and when this is done, each transaction we should be able to see which app we have used
+
+
+fourth, we can add a profile, and for export as csv, we can add this feature where we can send to email
+
+everything is fine and working neatly till now

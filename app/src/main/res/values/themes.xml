@@ -1,0 +1,92 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ExpenseTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorPrimaryVariant">@color/primary_blue_dark</item>
+        <item name="colorOnPrimary">@color/text_white</item>
+        
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/primary_blue_light</item>
+        <item name="colorSecondaryVariant">@color/primary_blue</item>
+        <item name="colorOnSecondary">@color/text_white</item>
+        
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/primary_blue</item>
+        
+        <!-- Background colors -->
+        <item name="android:windowBackground">@color/background_white</item>
+        <item name="colorSurface">@color/card_background</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        
+        <!-- Customize your theme here. -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+    </style>
+    
+    <!-- Transaction Card Styles -->
+    <style name="TransactionCard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginHorizontal">16dp</item>
+        <item name="android:layout_marginVertical">4dp</item>
+        <item name="android:background">@drawable/transaction_card_background</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    
+    <!-- Transaction Amount Text -->
+    <style name="TransactionAmount">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginEnd">8dp</item>
+    </style>
+    
+    <!-- Transaction Type Badge -->
+    <style name="TransactionTypeBadge">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingHorizontal">8dp</item>
+        <item name="android:paddingVertical">4dp</item>
+        <item name="android:textColor">@color/text_white</item>
+    </style>
+    
+    <!-- Transaction Name Text -->
+    <style name="TransactionName">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    
+    <!-- Transaction Time Text -->
+    <style name="TransactionTime">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+    
+    <!-- Tag Text -->
+    <style name="TransactionTag">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:drawablePadding">4dp</item>
+    </style>
+    
+    <!-- Add Tag Button -->
+    <style name="AddTagButton">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/untagged_amber</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    
+    <!-- Floating Action Button -->
+    <style name="FABStyle">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="backgroundTint">@color/primary_blue</item>
+        <item name="tint">@color/text_white</item>
+    </style>
+</resources>

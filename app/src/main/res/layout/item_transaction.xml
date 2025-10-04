@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="4dp"
+    android:layout_marginVertical="4dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    app:rippleColor="@color/primary_blue_light"
+    app:strokeWidth="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- Left Border Indicator -->
+        <View
+            android:id="@+id/viewLeftBorder"
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="12dp"
+            android:background="@color/debit_red"
+            tools:background="@color/debit_red" />
+
+        <!-- Transaction Content -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- Top Row: Amount and Type -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="4dp">
+
+                <!-- Amount -->
+                <TextView
+                    android:id="@+id/tvAmount"
+                    style="@style/TransactionAmount"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/debit_red"
+                    tools:text="₹150.00"
+                    tools:textColor="@color/debit_red" />
+
+                <!-- Transaction Type Badge -->
+                <TextView
+                    android:id="@+id/tvTransactionType"
+                    style="@style/TransactionTypeBadge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/debit_badge_background"
+                    tools:text="DEBITED"
+                    tools:background="@drawable/debit_badge_background" />
+
+            </LinearLayout>
+
+            <!-- Receiver/Sender Name -->
+            <TextView
+                android:id="@+id/tvReceiverSenderName"
+                style="@style/TransactionName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                tools:text="MANGARAM CHOWDARY" />
+
+            <!-- Bottom Row: Time and Tag -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <!-- Time -->
+                <TextView
+                    android:id="@+id/tvTime"
+                    style="@style/TransactionTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="20:05" />
+
+                <!-- Separator -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:text="•"
+                    android:textColor="@color/text_tertiary"
+                    android:textSize="14sp" />
+
+                <!-- Tag or Add Tag Button -->
+                <TextView
+                    android:id="@+id/tvTag"
+                    style="@style/TransactionTag"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    tools:text="+ Add Tag"
+                    tools:textColor="@color/untagged_amber" />
+
+                <!-- Untagged Indicator -->
+                <View
+                    android:id="@+id/viewUntaggedIndicator"
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/untagged_indicator"
+                    android:visibility="gone"
+                    tools:visibility="visible" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

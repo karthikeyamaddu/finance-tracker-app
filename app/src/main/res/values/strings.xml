@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">Expense Tracker</string>
+    
+    <!-- Home Screen -->
+    <string name="home_title">💰 Expense Tracker</string>
+    <string name="today_transactions">Today - %1$s</string>
+    <string name="time_format_24h">24h</string>
+    <string name="time_format_12h">12h</string>
+    <string name="view_untagged">View Untagged (%1$d)</string>
+    <string name="all_history">All History</string>
+    <string name="add_transaction">Add Transaction</string>
+    <string name="add_tag">+ Add Tag</string>
+    <string name="no_transactions_today">No transactions today</string>
+    
+    <!-- Transaction Types -->
+    <string name="debited">DEBITED</string>
+    <string name="credited">CREDITED</string>
+    <string name="debit">Debit</string>
+    <string name="credit">Credit</string>
+    
+    <!-- Transaction Detail -->
+    <string name="transaction_detail">Transaction Detail</string>
+    <string name="add_your_tag">Add Your Tag</string>
+    <string name="tag_hint">e.g., Milk, Grocery, Fuel...</string>
+    <string name="quick_tags">Quick Tags:</string>
+    <string name="save">Save</string>
+    <string name="back">Back</string>
+    
+    <!-- Quick Tags -->
+    <string name="tag_groceries">Groceries</string>
+    <string name="tag_transport">Transport</string>
+    <string name="tag_food">Food</string>
+    <string name="tag_fuel">Fuel</string>
+    <string name="tag_shopping">Shopping</string>
+    <string name="tag_bills">Bills</string>
+    
+    <!-- Untagged Screen -->
+    <string name="untagged_title">Untagged (%1$d)</string>
+    <string name="untagged_message">⚠️ These transactions need labels</string>
+    <string name="no_untagged_transactions">🎉 All transactions are tagged!</string>
+    
+    <!-- History Screen -->
+    <string name="all_transactions">All Transactions</string>
+    <string name="search_hint">Search...</string>
+    <string name="filter">Filter</string>
+    <string name="no_transactions_found">No transactions found</string>
+    
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="time_format">Time Format</string>
+    <string name="permissions">Permissions</string>
+    <string name="sms_access">SMS Access</string>
+    <string name="notification_access">Notification Access</string>
+    <string name="granted">✓ Granted</string>
+    <string name="denied">✗ Denied</string>
+    <string name="notifications">Notifications</string>
+    <string name="new_transaction_alerts">New Transaction Alerts</string>
+    <string name="export_data">Export Data</string>
+    <string name="export_to_csv">Export to CSV</string>
+    <string name="about">About</string>
+    <string name="version">Version 1.0.0</string>
+    
+    <!-- Manual Entry -->
+    <string name="manual_entry">Manual Entry</string>
+    <string name="amount">Amount</string>
+    <string name="transaction_type">Transaction Type</string>
+    <string name="receiver_sender_name">Receiver/Sender Name</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="tag_label">Tag/Label</string>
+    <string name="cancel">Cancel</string>
+    <string name="amount_required">Amount is required</string>
+    <string name="invalid_amount">Please enter a valid amount</string>
+    <string name="name_required">Receiver/Sender name is required</string>
+    
+    <!-- Notifications -->
+    <string name="notification_title">New Transaction Captured 💰</string>
+    <string name="notification_content">₹%1$.2f to %2$s - Tap to add label</string>
+    <string name="notification_action_add_tag">Add Tag</string>
+    
+    <!-- Permissions -->
+    <string name="permission_sms_title">SMS Permission Required</string>
+    <string name="permission_sms_message">This app needs SMS permission to automatically capture your Axis Bank transaction messages. Your SMS data is processed locally and never shared.</string>
+    <string name="permission_notification_title">Notification Permission</string>
+    <string name="permission_notification_message">Enable notifications to get alerts when new transactions are captured from SMS.</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="not_now">Not Now</string>
+    
+    <!-- Error Messages -->
+    <string name="error_loading_transactions">Error loading transactions</string>
+    <string name="error_saving_transaction">Error saving transaction</string>
+    <string name="error_updating_tag">Error updating tag</string>
+    <string name="error_database">Database error occurred</string>
+    <string name="error_file_operation">File operation failed</string>
+    <string name="error_permission_denied">Permission denied</string>
+    <string name="error_out_of_memory">Not enough memory available</string>
+    <string name="error_invalid_number">Invalid number format</string>
+    <string name="error_invalid_input">Invalid input provided</string>
+    <string name="error_network">Network connection error</string>
+    <string name="error_unknown">An unexpected error occurred</string>
+    <string name="error_sms_parsing">Failed to parse SMS message</string>
+    <string name="error_duplicate_transaction">Transaction already exists</string>
+    <string name="error_database_operation">Database operation failed: %1$s</string>
+    <string name="error_sms_permission_required">SMS permission is required to capture transactions</string>
+    <string name="error_notification_permission_required">Notification permission is required for alerts</string>
+    <string name="error_storage_permission_required">Storage permission is required for export</string>
+    <string name="error_permission_required">Permission required: %1$s</string>
+    <string name="error_export_file_write">Failed to write export file</string>
+    <string name="error_export_permission">Export permission denied</string>
+    <string name="error_export_failed">Export operation failed</string>
+    <string name="error_storage_permission_denied">Storage permission denied</string>
+    
+    <!-- Success Messages -->
+    <string name="transaction_saved">Transaction saved successfully</string>
+    <string name="tag_updated">Tag updated successfully</string>
+    <string name="success_tag_updated">Tag updated successfully</string>
+    <string name="success_data_exported">Data exported successfully</string>
+    
+    <!-- Currency -->
+    <string name="currency_symbol">₹</string>
+    
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="retry">Retry</string>
+    <string name="loading">Loading...</string>
+</resources>
